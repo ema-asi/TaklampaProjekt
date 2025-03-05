@@ -53,7 +53,7 @@ Vi förbinder oss att följa detta gruppkontrakt för att skapa en produktiv och
 | \-------- | \-------- | \----- |  
 | Jessica  |Jessica Sjösten | 05/3-25 |  
 | Oscar    |          |       |  
-| Emanuela |          |       |  
+| Emanuela |Emanuela Asiedu          |       |  
 | Chengjun |          |       |  
 | Seref    |          |       |
 
