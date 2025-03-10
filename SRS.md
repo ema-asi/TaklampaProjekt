@@ -66,8 +66,6 @@ Den smarta lampan är en fristående enhet men kan potentiellt integreras med sm
 |-----------------|--------------------------------|-------------------------------------------------------------------|
 | Arduino R4 WiFi | Arduino Rev 4 WiFi             | Main Microcontroller                                              |
 |  LTR-303ALS-01  | Adafruit LTR-303 Ljussensor    | The Adafruit LTR-303 Light Sensor a simple and popular low-cost I2C digital light sensor that is easy to integrate into your project for reliable and wide-ranging light measurements. |
-|                 | Rörelsesensor                  |                                                                   |
-|                 | Ljudsensor                     |                                                                   |
 
 ---
 
