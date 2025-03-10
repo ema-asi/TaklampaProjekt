@@ -55,5 +55,5 @@ Vi förbinder oss att följa detta gruppkontrakt för att skapa en produktiv och
 | Oscar    |Oscar Asserlund | 05/3/2025 |  
 | Emanuela |Emanuela Asiedu|   05/3/25    |  
 | Chengjun |Chengjun Yan  | 05/3-25  |  
-| Seref    |          |       |
+| Seref    |Seef  Özbodur |10/03/25 |
 
