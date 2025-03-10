@@ -3,14 +3,14 @@
 **Projekt:** Smart lampa  
 **Version:** 1.0  
 **Datum:** 10/3-2025  
-**Författare:** Grupp 1!
+**Författare:** Grupp 1
 
 ---
 
 ## 1. Introduktion
 
 ### 1.1 Syfte
-Detta dokument specificerar kraven och funktionaliteten för "Smart Lampa", en intelligent belysningslösning som reagerar på både ljud- och ljusnivåer i dess omgivning.
+Detta dokument specificerar kraven och funktionaliteten för en "Smart Lampa", en intelligent belysningslösning som reagerar på både ljud- och ljusnivåer i dess omgivning.
 
 ### 1.2 Målgrupp
 Denna SRS riktar sig till utvecklare och produktägare som är involverade i utvecklingen av den smarta lampan, samt undervisare för bedömning.
@@ -52,19 +52,28 @@ Den smarta lampan är en fristående enhet men kan potentiellt integreras med sm
 
 ### 3.2 Icke-funktionella krav
 
-| **ID** | **Krav**           | **Beskrivning**                                                              |
-|--------|--------------------|------------------------------------------------------------------------------|
+| **ID** | **Krav**           | **Beskrivning**                                                                |
+|--------|--------------------|--------------------------------------------------------------------------------|
 | NF1    | Utvecklingsmiljö   | Koden ska skrivas i C++.                                                       |
 | NF2    | Hårdvaruplattform  | Lampan ska styras av en Arduino Uno R4 WiFi-enhet.                             |
 | NF3    | Responstid         | Lampan ska reagera på ljud och ljus-förändringar inom X sekunder.              |
 | NF4    | Energibesparing    | Lampan ska vara optimerad för låg strömförbrukning.                            |
-| NF5    | Kompatibilitet     | Lampan ska kunna integreras med smarta hem-system (vid framtida versioner).     |
+| NF5    | Kompatibilitet     | Lampan ska kunna integreras med smarta hem-system (vid framtida versioner).    |
+
+### 3.3 Komponent Lista
+
+| **PartID**      | **Komponentnamn**              | **Beskrivning**                                                   |
+|-----------------|--------------------------------|-------------------------------------------------------------------|
+| Arduino R4 WiFi | Arduino Rev 4 WiFi             | Main Microcontroller                                              |
+|  LTR-303ALS-01  | Adafruit LTR-303 Ljussensor    | The Adafruit LTR-303 Light Sensor a simple and popular low-cost I2C digital light sensor that is easy to integrate into your project for reliable and wide-ranging light measurements. |
+|                 | Rörelsesensor                  |                                                                   |
+|                 | Ljudsensor                     |                                                                   |
 
 ---
 
 ## 4. Begränsningar och Antaganden
 - Lampan ska fungera inomhus.
-- Vi siktar på strömgivning med likspänning och **INTE** växelström.
+- Vi siktar på strömgivning med likspänning och **INTE** växelström. Alltså lampan kommer inte kopplas i vägguttag.
 - En enkel mikrofon och ljussensor ska räcka för att detektera ljud och ljusförändringar.
 
 ---
@@ -73,7 +82,7 @@ Den smarta lampan är en fristående enhet men kan potentiellt integreras med sm
 - Implementering av en app för att styra lampan via smartphone.
 - Möjlighet att schemalägga ljusinställningar.
 - Röststyrning via smarta assistenter.
-- Stöd för flerfärgade LED-lampor / sammankoppling med flera.
+- Stöd för flerfärgade LED-lampor / sammankoppling med flera enheter.
 
 ---
 
